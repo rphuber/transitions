@@ -4,17 +4,9 @@
   height:300px;
   margin:0;
   padding:0;
-  border:thick grey groove;
   text-align:center;
   clear:both;
-  background: rgba(212,228,239,1);
-  background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
-  background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
-  background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
-  background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
-  background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+  background-color: #E6E9ED
 }
 
 p {
@@ -47,7 +39,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .1s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -63,7 +55,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .2s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -79,7 +71,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .3s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -95,7 +87,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .4s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -111,7 +103,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .5s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -127,7 +119,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .6s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -143,7 +135,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .7s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -159,7 +151,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .8s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;
@@ -175,7 +167,7 @@ p {
   background:grey;
   text-align:center;
   padding:auto;
-  transition: all 2s ease;
+  transition: all 2s ease .9s;
   border-radius: 100px 200px 100px 200px;
   -moz-border-radius: 100px 200px 100px 200px;
   -webkit-border-radius: 100px 200px 100px 200px;

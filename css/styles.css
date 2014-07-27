@@ -3,11 +3,17 @@
   text-align:center;
 }
 
+body {
+  font-family: 'Quattrocento Sans'
+}
+
+/*styling for topbar*/
+
 .topbar {
   width:100%;
   padding-top:25px;
   padding-bottom:25px;
-  border-bottom: 3px outset lightgrey
+  background-color: #434A54;
 }
 
 .topbar img {
@@ -15,11 +21,12 @@
   border-radius:100%;
   height: 75px;
   display:inline;
-  transition: all 5s ease;
+  transition: all 1s ease;
 }
 
 .topbar img:hover {
-  height: 300px;
+  height: 100px;
+  /* border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em; */
 }
 
 .topbar h1 {
@@ -27,6 +34,12 @@
   display:inline;
   margin-left:25px;
 }
+
+h1.topbar {
+  color: #F5F7FA;
+}
+
+
 
 .nextbar {
        width:100%;
@@ -71,7 +84,7 @@
 -webkit-box-shadow: 10px 10px 66px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 66px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 66px 0px rgba(0,0,0,0.75);
-transition: all 5s ease;
+transition: all 10s linear;
 }
 
 .shadow:hover {
